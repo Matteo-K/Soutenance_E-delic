@@ -44,11 +44,12 @@
 \newcommand{\kpiBox}[3]{
   \begin{tikzpicture}[baseline]
     \node[draw=#3!80!black, fill=#3!10, rounded corners=5pt,
-          minimum width=2.5cm, minimum height=1.5cm,
-          text centered, line width=0.5pt, inner sep=6pt] (box) {
-      \begin{tabular}{c}
+          minimum width=3.6cm, minimum height=1.8cm, % largeur et hauteur fixes
+          text centered, align=center, line width=0.5pt, inner sep=4pt] (box) {
+      \begin{tabular}{@{}c@{}}
         \large #2 \\
-		\small #1
+        \vspace{0.2em}
+        \small #1
       \end{tabular}
     };
   \end{tikzpicture}
@@ -152,11 +153,39 @@
   		\begin{minipage}{0.9\textwidth}
     			\begin{itemize}
       			\item Dénomination sociale : E-declic
+      			\item Entreprise privé
 				\item Nationalité : Française
       			\item Forme juridique : SARL
       			\item Secteur d'activité : Technologies de l'Information et de la Communication (TIC)
-      			\item Taille : Petite moyenne entreprise (6 à 9 salariés)
     			\end{itemize}
+  		\end{minipage}
+	\end{center}
+	\vfill
+\end{frame}
+
+\begin{frame}{Qui est E-declic ?}
+	\logoEdeclic
+
+	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
+  		\large \textbf{Chiffres clés}
+	\end{beamercolorbox}
+	\vspace{0.5em}
+	\begin{center}
+  		\begin{minipage}{0.9\textwidth}
+			\begin{columns}
+  				\column{0.48\textwidth}
+  					\kpiBox{Implantation}{Depuis 2004}{blue}
+  					\vspace{0.5em}
+    					\kpiBox{Projets réalisés}{$>500$}{blue}
+    					\vspace{0.5em}
+    					\kpiBox{Projets réalisés}{$>500$}{blue}
+    					\vspace{0.5em}
+  				\column{0.48\textwidth}
+    					\kpiBox{Google Partner}{Depuis 2020}{orange}
+    					\vspace{0.5em}
+    					\kpiBox{Émissions CO$_2$}{$1,75\,kg$/1000 vues}{teal}
+    					\vspace{0.5em}
+			\end{columns}
   		\end{minipage}
 	\end{center}
 	\vfill
@@ -204,25 +233,6 @@
   				\end{itemize}
   				\item Finalités : Apporter des solutions numériques et évènementielles sur mesure aux entreprises
   			\end{itemize}
-  		\end{minipage}
-	\end{center}
-	\vfill
-\end{frame}
-
-\begin{frame}{Qui est E-declic ?}
-	\logoEdeclic
-
-	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
-  		\large \textbf{Chiffres clés}
-	\end{beamercolorbox}
-	\vspace{0.5em}
-	\begin{center}
-  		\begin{minipage}{0.9\textwidth}
-			\kpiBox{Chiffre d'Affaires}{\num{1250000}~€}{blue}
-			\kpiBox{Projets réalisés}{$+ 500$}{red}
-			%\kpiBox{Rentabilité}{\num{5.49}~\%}{orange}
-			%\kpiBox{Financière}{\num{21.68}~\%}{teal}
-			\kpiBox{Salariés}{6 à 9}{green}
   		\end{minipage}
 	\end{center}
 	\vfill
@@ -600,7 +610,7 @@
   			  		\begin{itemize}
   						\item Identification des fonctionnalités
   						\item Réalisation du modèle conceptuel des données (MCD)
-  						\item Création d'un prototype de l'application
+  						\item Création d'un \href{https://www.figma.com/design/GuunRMUtzwJjCk1OudcjYl/Pain-Pizza?node-id=0-1&p=f&t=KjBsRt1nqpntIccn-0}{\underline{prototype}} de l'application
   					\end{itemize}
 				\textbf{Résultat :} Modèle clair et globale sur le fonctionnalité facilitant le développement backend.
 			\end{minipage}
@@ -666,7 +676,6 @@
 		}
 	\end{center}
 	\vfill
-	\addtocounter{figure}{4}
 \end{frame}
 
 \begin{frame}{Solutions apportées aux projets}
@@ -675,21 +684,75 @@
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
-  		\begin{minipage}{0.9\textwidth}
-  			\textbf{Situation :} Tout les utilisateurs ont un accès libre au service.\\
-  			\textbf{Tâche :} Gestion des rôles et authentification.\\
-  			\textbf{Action :} Mises en places de sécurités.
+		\only<1> {
+  			\begin{minipage}{0.9\textwidth}
+  				\textbf{Situation :} Tout les utilisateurs ont un accès libre au service.\\
+  				\textbf{Tâche :} Gestion des rôles et authentification.\\
+  				\textbf{Action :} Mises en places de sécurités.
   				\begin{itemize}
   					\item Authentification avec JWT Tokens
   					\item Controlle d'accès (Security \& Voter)
   					\item Usurpation des utilisateurs (Admin)
-  				\end{itemize}
-			\textbf{Résultat :}
+  					\end{itemize}
+				\textbf{Résultat :}
 				\begin{itemize}
 					\item Multi-accès sécurisé à la plateforme
 					\item Fonctionnalités adaptées selon les rôles de l'utilisateur
 				\end{itemize}
-  		\end{minipage}
+	  		\end{minipage}
+  		}
+  		
+  		\only<2> {
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/inscription.png}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/inscription.png}{\underline{Inscription Utilisateur}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:inscription}
+  			\end{figure}
+		}
+		
+		\only<3> {
+			\addtocounter{figure}{1}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/controlle_acces_client.png}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/controlle_acces_client.png}{\underline{Affichage d'un hébergement en tant que \textbf{client}}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:controlle_acces_client}
+  			\end{figure}
+		}
+		
+		\only<4> {
+			\addtocounter{figure}{2}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/controlle_acces_hebergement.png}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/controlle_acces_hebergement.png}{\underline{Affichage d'un hébergement en tant que \textbf{hébergement}}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:controlle_acces_hebergement}
+  			\end{figure}
+		}
+		
+		\only<5> {
+			\addtocounter{figure}{3}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/localhost/usurpation.png}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/localhost/usurpation.png}{\underline{Usurpation d'utilisateur}}.\\
+  					\textit{Source : Application - Mattéo Kervadec}
+				}
+  				\label{fig:usurpation}
+  			\end{figure}
+		}
+  		
 	\end{center}
 	\vfill
 \end{frame}
@@ -700,17 +763,70 @@
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
-  		\begin{minipage}{0.9\textwidth}
-  			\textbf{Situation :} Plateforme sans fonctionnalité de commande ou panier.\\
-  			\textbf{Tâche :} Sélectionner un produit suivant sa disponibilité.\\
-  			\textbf{Action :}
+		\only<1> {
+  			\begin{minipage}{0.9\textwidth}
+  				\textbf{Situation :} Plateforme sans fonctionnalité de commande ou panier.\\
+  				\textbf{Tâche :} Sélectionner un produit suivant sa disponibilité.\\
+  				\textbf{Action :}
 				\begin{itemize}
 					\item Gestion des produits
 					\item Gestion du panier (API REST)
 					\item Implémentation d'un service de disponibilité
 				\end{itemize}
-			\textbf{Résultat :} Création et sélection de produit fluide et dynamique.
-  		\end{minipage}
+				\textbf{Résultat :} Création et sélection de produit fluide et dynamique.
+  			\end{minipage}
+  		}
+  		
+  		\only<2> {
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/crud_produit.png}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/crud_produit.png}{\underline{Création d'un produit}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:crud_produit}
+  			\end{figure}
+		}
+		
+		\only<3> {
+			\addtocounter{figure}{1}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/disponibilite_produit.png}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/disponibilite_produit.png}{\underline{Mise en place de la disponibilité}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:disponibilite_produit}
+  			\end{figure}
+		}
+		
+		\only<4> {
+			\addtocounter{figure}{2}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/controlle_acces_client.png}
+				\caption{
+					\centering
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/controlle_acces_client.png}{\underline{Modification du panier}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:modification_panier}
+  			\end{figure}
+		}
+		
+		\only<5> {
+			\addtocounter{figure}{3}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/panier.png}
+				\caption{
+					\centering
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/panier.png}{\underline{Visualisation du panier}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:panier}
+  			\end{figure}
+		}
 	\end{center}
 	\vfill
 \end{frame}
@@ -721,20 +837,47 @@
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
-  		\begin{minipage}{0.9\textwidth}
-  			\textbf{Situation :} Conclure la procédure de gestion.\\
-  			\textbf{Tâche :} Volonté d'encaisser et retracer les commandes.\\
-  			\textbf{Action :}
+		\only<1> {	
+	  		\begin{minipage}{0.9\textwidth}
+  				\textbf{Situation :} Conclure la procédure de gestion.\\
+  				\textbf{Tâche :} Volonté d'encaisser et retracer les commandes.\\
+  				\textbf{Action :}
   				\begin{itemize}
   					\item Integration de stripe pour les paiements sécurisés
   					\item Mise en place d'historique de commande
   				\end{itemize}
-			\textbf{Résultat :} Traçage et méthode de paiement fonctionnel qui nécessiterait des améliorations.
+				\textbf{Résultat :} Traçage et méthode de paiement fonctionnel qui nécessiterait des améliorations.
 				\begin{itemize}
 					\item Porte-monnaie virtuelle
 					\item Gestion de suivi de livraison
 				\end{itemize}
-  		\end{minipage}
+  			\end{minipage}
+  		}
+  		
+  		\only<2> {
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/localhost/stripe.png}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/crud_produit.png}{\underline{Paiement par stripe}}.\\
+  					\textit{Source : Application - Mattéo Kervadec}
+				}
+  				\label{fig:stripe}
+  			\end{figure}
+		}
+		
+		\only<3> {
+			\addtocounter{figure}{1}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/maquette/historique_commande.png}
+				\caption{	
+					\centering
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/maquette/historique_commande.png}{\underline{Historique des commandes}}.\\
+  					\textit{Source : Maquette - Théo Le Gourrierec}
+				}
+  				\label{fig:disponibilite_produit}
+  			\end{figure}
+		}
 	\end{center}
 	\vfill
 \end{frame}
@@ -751,9 +894,10 @@
   		\begin{minipage}{0.9\textwidth}
 	  		Objectifs atteints, quelques améliorations possibles.
   			\begin{itemize}
-  				\item Base de Site e-commerce fonctionnel
-			  	\item Manque plus que le design
-			  	\item Ajouté des fonctionnalité : 
+  				\item Application de e-commerce fonctionnelle
+			  	\item Interface graphique à finaliser
+			  	\item Fonctionnalités essentielles sont implémentés
+			  	\item Pistes de fonctionnalité à ajouter : 
 			  	\begin{itemize}
 			  		\item Porte-monnaie
 			  		\item Gestion d'abonnement
@@ -772,13 +916,11 @@
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
   			\begin{itemize}
-  				\item Base de Site e-commerce fonctionnel
-			  	\item Manque plus que le design
-			  	\item Ajouté des fonctionnalité : 
-			  	\begin{itemize}
-			  		\item Porte-monnaie
-			  		\item Gestion d'abonnement
-			  	\end{itemize}
+  				\item \faLaptopCode\ Mise en place d'une architecture MVC
+  				\item \faCodeBranch\ Découverte et maitrise du framework backend \textbf{Symfony}
+  				\item \faLock\ Gestion d'utilisateur et de sécurité des routes
+  				\item \faBolt\ Interactions sans rechargement via \textbf{Turbo/Stimulus}
+  				\item \faDatabase\ Structuration et modélisation de base de données
 			\end{itemize}
   		\end{minipage}
 	\end{center}
@@ -791,9 +933,20 @@
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
-  		\begin{minipage}{0.9\textwidth}
+  		\begin{minipage}{1\textwidth}
+  			\textbf{\faCheck\ Fier du travail produit}
   			\begin{itemize}
-  				\item
+  				\item Progression en autonomie
+  				\item Amélioration de la prise de décision
+  				\item Acceptation de la suppression de certaines fonctionnalités
+  				\item Communication directe et feedback régulier
+  				\item Satisfaction de la réalisation finale
+  			\end{itemize}
+  				
+  			\textbf{\faTimes\ Déçu de certains points}
+  			\begin{itemize}
+  				\item Manque d'outis de gestion
+		  		\item Impression de stagnation de productivité
   			\end{itemize}
   		\end{minipage}
 	\end{center}
@@ -816,12 +969,13 @@
 
 \begin{frame}[label=sources]{Sources}
 	\begin{itemize}
-		\item \href{https://www.e-declic.com/}{lien} - Site web E-declic
-		\item \href{https://www.francenum.gouv.fr/activateurs/e-declic}{lien}
-		\item \href{https://annuaire-entreprises.data.gouv.fr/entreprise/e-declic-453413296}{lien}
-		\item \href{https://entreprises.lefigaro.fr/e-declic-56/entreprise-453413296}{lien}
+		\item \href{https://www.e-declic.com/}{\underline{Site web E-declic}}
+		\item \href{https://www.francenum.gouv.fr/activateurs/e-declic}{\underline{FranceNum - Caractéristiques E-declic}}
+		\item \href{https://annuaire-entreprises.data.gouv.fr/entreprise/e-declic-453413296}{\underline{Annuaire des entreprises - Caractéristiques E-declic}}
+		\item \href{https://entreprises.lefigaro.fr/e-declic-56/entreprise-453413296}{\underline{lefigaro entreprise - Caractéristiques E-declic}}
+		\item \href{https://github.com/Matteo-K/Soutenance_E-delic/tree/main/img}{\underline{Ressources de la soutenance}}
 	\end{itemize}
-
+	\vfill
 \end{frame}
 
 \end{document}
