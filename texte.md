@@ -28,19 +28,64 @@ L'application vise a être autonomone et donc chaque hébergements gère ses pro
 
 ## 📌 Réalisation 1 : Conception et modélisation de l’application
 
-(MCD, prototype de la plateforme)
+**Situation** : Le projet manquait d’une structure claire pour
+organiser les données.
+
+**Tâche** : Identifier les fonctionnalités de l’application.
+
+**Action** :
+- Identification des fonctionnalités
+- Réalisation du modèle conceptuel des données (MCD)
+- Création d’un prototype de l’application
+
+**Résultat** : Modèle clair et globale sur le fonctionnalité faci-
+litant le développement backend.
+
 
 ## 📌 Réalisation 2 : Gestion des comptes et des rôles utilisateurs
 
-(Système d’inscription, connexion, gestion des rôles dynamique)
+**Situation** : Tout les utilisateurs ont un accès libre au service.
+
+**Tâche** : Gestion des rôles et authentification.
+
+**Action** : Mises en places de sécurités.
+- Authentification avec JWT Tokens
+- Controlle d’accès (Security & Voter)
+- Usurpation des utilisateurs (Admin)
+
+**Résultat** :
+- Multi-accès sécurisé à la plateforme
+- Fonctionnalités adaptées selon les rôles de l’utilisateur
 
 ## 📌 Réalisation 3 : Développement de la logique métier e-commerce
 
-(Gestion des produits, panier, API de gestion de panier)
+**Situation** : Plateforme sans fonctionnalité de commande ou
+panier.
+
+**Tâche** : Sélectionner un produit suivant sa disponibilité.
+
+**Action** :
+- Gestion des produits
+- Gestion du panier (API REST)
+- Implémentation d’un service de disponibilité
+
+**Résultat** : Création et sélection de produit fluide et dyna-
+mique
 
 ## 📌 Réalisation 4 : Mise en place de la procédure de paiement et réservation
 
-(Intégration de Stripe, gestion des réservations et historique des commandes)
+**Situation** : Conclure la procédure de gestion.
+
+**Tâche** : Volonté d’encaisser et retracer les commandes.
+
+**Action** :
+- Integration de stripe pour les paiements sécurisés
+- Mise en place d’historique de commande
+
+**Résultat** : Traçage et méthode de paiement fonctionnel qui
+nécessiterait des améliorations.
+- Porte-monnaie virtuelle
+- Gestion de suivi de livraison
 
 ### Résultat :
 

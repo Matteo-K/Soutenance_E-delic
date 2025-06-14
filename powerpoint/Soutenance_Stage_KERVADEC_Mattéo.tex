@@ -281,6 +281,11 @@
 % === SUJET DE STAGE ===
 \begin{frame}[label=sujet]{Les missions et objectifs du stage}
 
+	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
+  		\large \textbf{Sujet de stage}
+	\end{beamercolorbox}
+	\vspace{0.2em}
+	
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}				
 
@@ -292,6 +297,12 @@
 \end{frame}
 
 \begin{frame}{Les missions et objectifs du stage}
+
+	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
+  		\large \textbf{Sujet de stage}
+	\end{beamercolorbox}
+	\vspace{0.2em}
+	
 	\begin{center}
   		\begin{minipage}{1\textwidth}				
 
@@ -342,14 +353,22 @@
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
 			\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
-  				\large \textbf{Missions confiées}
+  				\large \textbf{Missions confiées} - \href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/pdf/cc-painspizzas-camping.pdf}{\underline{(Lien du pdf sur github)}}
 			\end{beamercolorbox}
-			
 			\begin{itemize}
 				\item Gestion d'hébergements
 				\item Gestion d'utilisateur
+				\item Gestion du E-commerce
+				\begin{itemize}
+					\item Gestion de produit
+					\item Gestion du panier
+					\item Gestion du paiement
+					\item \textbf{Gestion de la disponibilité des produits}
+				\end{itemize}
+				\item Gestion de l'administration
 			\end{itemize}
   		\end{minipage}
+  		\vspace{1cm}
 	\end{center}
 	\vfill
 \end{frame}
@@ -366,7 +385,7 @@
 			
 			\begin{itemize}
 				\item Gestion multi-utilisateur → multi-rôles
-				\item Gestion de la disponibilité d'un produit
+				\item Gestion de la disponibilité des produits
 				\begin{itemize}
 					\item Gestion du produit
 					\item Gestoin du panier
@@ -375,6 +394,7 @@
 				\end{itemize}
 				\item Intégration du paiement via stripe
 			\end{itemize}
+  			\vspace{1cm}
   		\end{minipage}
 	\end{center}
 	\vfill
@@ -401,6 +421,7 @@
          				Gestionnaire de MCD et modélisation
           		  	\end{minipage}
           			\vspace{0.7em}
+          			\pause
           			
           			% Figma
         				\begin{minipage}[t][2cm][t]{\linewidth}
@@ -410,6 +431,7 @@
           				Conception des maquettes UI/UX
           			\end{minipage}
           			\vspace{0.7em}
+          			\pause
           		
           			% Windsurf	
           			\begin{minipage}[t][2cm][t]{\linewidth}
@@ -418,6 +440,7 @@
           				\hspace{0.6cm} \textbf{Windsurf} \\ 
           				Monitoring des performances
           			\end{minipage}
+          			\pause
           			
         			\column{0.48\textwidth}
         			
@@ -429,13 +452,24 @@
           				Tests des API
           			\end{minipage}
           			\vspace{0.7em}
+          			\pause
           			
           			% Github
           			\begin{minipage}[t][2cm][t]{\linewidth}
           				\raggedright
           				\includegraphics[width=0.75cm, height=0.75cm]{../img/logo_github.png}
           				\hspace{0.6cm} \textbf{Github} \\
-          				Gestion du versioning et collaboration
+          				Gestion du versioning et partage de fichiers
+          			\end{minipage}
+          			\vspace{0.7em}
+          			\pause
+          			
+          			% Slack
+          			\begin{minipage}[t][2cm][t]{\linewidth}
+          				\raggedright
+          				\includegraphics[width=0.75cm, height=0.75cm]{../img/logo_slack.png}
+          				\hspace{0.6cm} \textbf{Slack} \\
+          				Messagerie instantanée
           			\end{minipage}
 
       		\end{columns}
@@ -463,6 +497,7 @@
         					Framework PHP MVC pour l'architecture backend
       				\end{minipage}
       				\vspace{0.7em}
+          			\pause
       
       				% Twig
       				\begin{minipage}[t][2cm][t]{\linewidth}
@@ -471,6 +506,7 @@
         					\hspace{0.6cm} \textbf{Twig} \\
         					Moteur de templates pour Symfony
       				\end{minipage}
+          			\pause
 
     				\column{0.48\textwidth}
     
@@ -481,6 +517,7 @@
         					Interaction frontend et mises à jour dynamiques
       				\end{minipage}
       				\vspace{0.7em}
+          			\pause
       
       				% Twig Components
       				\begin{minipage}[t][2cm][t]{\linewidth}
@@ -489,6 +526,7 @@
         					Représentation réutilisable des éléments d'interface
       				\end{minipage}
       				\vspace{0.7em}
+          			\pause
       
       				% Autocomplete
       				\begin{minipage}[t][2cm][t]{\linewidth}
@@ -504,19 +542,23 @@
 \end{frame}
 
 \begin{frame}[label=env]{Environnement de travail}
-	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
-  		\large \textbf{Moyens d'organisation du projet}
-	\end{beamercolorbox}
-	\vspace{0.5em}
-	\begin{center}
-		\begin{minipage}{0.9\textwidth}
-	  		\begin{itemize}
-  				\item Pas de méthode de gestion
-  				\item Réunion Hebdomadaire tout les 1er jours de la semaine 10h
-  			\end{itemize}
-		\end{minipage}
-	\end{center}
-	\vfill
+    \begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
+        \large \textbf{Moyens d'organisation du projet}
+    \end{beamercolorbox}
+    \vspace{0.5em}
+    \begin{center}
+\begin{minipage}{0.9\textwidth}
+    \begin{itemize}
+        \item \textbf{Méthode de travail :} gestion souple, sans cadre agile
+        \item \textbf{Réunions :} point hebdomadaire (lundi 10h)
+        \item \textbf{Suivi des tâches :} carnet de fonctionnalités
+        \item \textbf{Gestion des incidents :} journal des problèmes et solutions
+        \item \textbf{Communication :} échanges quotidiens et à distance via Slack
+    \end{itemize}
+\end{minipage}
+
+    \end{center}
+    \vfill
 \end{frame}
 
 \begin{frame}[label=env]{Environnement de travail}  
@@ -548,20 +590,83 @@
   		\large \textbf{Réalisation 1 :} \normalsize Conception et modélisation de l'application
 	\end{beamercolorbox}
 	\vspace{0.5em}
+
 	\begin{center}
-  		\begin{minipage}{0.9\textwidth}
-  			\textbf{Situation :} Le projet manquait d’une structure claire pour organiser les données.\\
-  			\textbf{Tâche :} Identifier les fonctionnalités de l'application.\\
-  			\textbf{Action :}
-  			  	\begin{itemize}
-  					\item Identification des fonctionnalités
-  					\item Réalisation du modèle conceptuel des données (MCD)
-  					\item Création d'un prototype de l'application
-  				\end{itemize}
-			\textbf{Résultat :} Modèle clair et globale sur le fonctionnalité facilitant le développement backend.
-  		\end{minipage}
+  		\only<1> {
+  			\begin{minipage}{0.9\textwidth}
+  				\textbf{Situation :} Le projet manquait d’une structure claire pour organiser les données.\\
+  				\textbf{Tâche :} Identifier les fonctionnalités de l'application.\\
+  				\textbf{Action :}
+  			  		\begin{itemize}
+  						\item Identification des fonctionnalités
+  						\item Réalisation du modèle conceptuel des données (MCD)
+  						\item Création d'un prototype de l'application
+  					\end{itemize}
+				\textbf{Résultat :} Modèle clair et globale sur le fonctionnalité facilitant le développement backend.
+			\end{minipage}
+		}
+		\only<2> {
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/conception/mcd_V1.jpg}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/conception/mcd_V1.jpg}{\underline{Modèle Conceptuel des données - version 1}}.\\
+  					\textit{Source : Mattéo Kervadec}
+				}
+  				\label{fig:mcdV1}
+  			\end{figure}
+		}
+		\only<3> {
+			\addtocounter{figure}{1}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/conception/mcd_V2.jpg}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/conception/mcd_V2.jpg}{\underline{Modèle Conceptuel des données - version 2}}.\\
+  					\textit{Source : Mattéo Kervadec}
+				}
+  				\label{fig:mcdV2}
+  			\end{figure}
+		}
+		\only<4> {
+			\addtocounter{figure}{2}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/conception/mcd_V3.jpg}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/conception/mcd_V3.jpg}{\underline{Modèle Conceptuel des données - version 3}}.\\
+  					\textit{Source : Mattéo Kervadec}
+				}
+  				\label{fig:mcdV3}
+  			\end{figure}
+		}
+		\only<5> {
+			\addtocounter{figure}{3}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/conception/mcd_V4.jpg}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/conception/mcd_V4.jpg}{\underline{Modèle Conceptuel des données - version 4}}.\\
+  					\textit{Source : Mattéo Kervadec}
+				}
+  				\label{fig:mcdV4}
+  			\end{figure}
+		}
+		\only<6> {
+			\addtocounter{figure}{4}
+			\begin{figure}[t]
+  				\includegraphics[height=5.5cm]{../img/conception/mcd_V5.jpg}
+				\caption{	
+					\centering			
+  					\href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/img/conception/mcd_V5.jpg}{\underline{Modèle Conceptuel des données - version 5}}.\\
+  					\textit{Source : Mattéo Kervadec}
+				}
+  				\label{fig:mcdV5}
+  			\end{figure}
+		}
 	\end{center}
 	\vfill
+	\addtocounter{figure}{4}
 \end{frame}
 
 \begin{frame}{Solutions apportées aux projets}
@@ -638,48 +743,85 @@
 
 % === CONCLUSION ===
 \begin{frame}[label=conclusion]{Conclusion}
-  \large \textbf{Bilan de la situation}
-
-  \vspace{0.5em}
-  Objectifs atteints, quelques améliorations possibles.
-  \begin{itemize}
-  	\item Base de Site e-commerce fonctionnel
-  	\item Manque plus que le design
-  	\item Ajouté des fonctionnalité : 
-  	\begin{itemize}
-  		\item Porte-monnaie
-  		\item Gestion d'abonnement
-  	\end{itemize}
-  \end{itemize}
+  	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
+  		\large \textbf{Bilan de la situation}
+	\end{beamercolorbox}
+	\vspace{0.5em}
+	\begin{center}
+  		\begin{minipage}{0.9\textwidth}
+	  		Objectifs atteints, quelques améliorations possibles.
+  			\begin{itemize}
+  				\item Base de Site e-commerce fonctionnel
+			  	\item Manque plus que le design
+			  	\item Ajouté des fonctionnalité : 
+			  	\begin{itemize}
+			  		\item Porte-monnaie
+			  		\item Gestion d'abonnement
+			  	\end{itemize}
+			\end{itemize}
+  		\end{minipage}
+	\end{center}
+	\vfill
 \end{frame}
 
-\begin{frame}[label=conclusion]{Conclusion}
-  \large \textbf{Bilan technique et humain}
-
-  \vspace{0.5em}
-  Compétences techniques renforcées (Symfony, gestion de projet).\\
-  Travail en équipe enrichissant et formateur.
-  
-  \textbf{Technique}
-  \begin{itemize}
-  	\item Framework backend (symfony)
-  	\item Modélisation de MLD d'un e-commerce
-  \end{itemize}
-  
-  \textbf{Humain}
-  \begin{itemize}
-  	\item S'adapter au changement/apprendre a abandonnée une fonctionnalité
-  	\begin{itemize}
-  		\item Calendrier
-  		\item Sélection de plusieurs dates
-  	\end{itemize}
-  \end{itemize}
+\begin{frame}{Conclusion}
+  	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
+  		\large \textbf{Bilan technique}
+	\end{beamercolorbox}
+	\vspace{0.5em}
+	\begin{center}
+  		\begin{minipage}{0.9\textwidth}
+  			\begin{itemize}
+  				\item Base de Site e-commerce fonctionnel
+			  	\item Manque plus que le design
+			  	\item Ajouté des fonctionnalité : 
+			  	\begin{itemize}
+			  		\item Porte-monnaie
+			  		\item Gestion d'abonnement
+			  	\end{itemize}
+			\end{itemize}
+  		\end{minipage}
+	\end{center}
+	\vfill
 \end{frame}
 
-\begin{frame}[label=remerciements]{Remerciements}
+\begin{frame}{Conclusion}
+  	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
+  		\large \textbf{Bilan humain}
+	\end{beamercolorbox}
+	\vspace{0.5em}
+	\begin{center}
+  		\begin{minipage}{0.9\textwidth}
+  			\begin{itemize}
+  				\item
+  			\end{itemize}
+  		\end{minipage}
+	\end{center}
+	\vfill
+\end{frame}
+
+\begin{frame}[label=remerciements]{\Large Remerciements}
+    \logoEdeclic
+    \begin{center}
+        \vspace{1em}
+        \begin{minipage}{0.9\textwidth}
+        		Un grand merci à toute l'équipe de \textbf{e-declic} et mon tuteur de stage \textbf{Michel Morvant} pour l'accueil et leurs accompagnements durant ce stage. \vspace{0.25cm} \\
+            Merci à l'\textbf{IUT de Lannion} pour m'avoir offert cette opportunité de formation. \vspace{0.25cm} \\
+            Je remercie également \textbf{le jury} pour le temps accordé et l'intérêt porté à mon travail. \vspace{0.25cm} \\
+            Enfin, je suis heureux de pouvoir poursuivre cette expérience chez \textbf{e-declic} en \textbf{alternance dès cet été}.
+        \end{minipage}
+    \end{center}
+    \vfill
 \end{frame}
 
 \begin{frame}[label=sources]{Sources}
+	\begin{itemize}
+		\item \href{https://www.e-declic.com/}{lien} - Site web E-declic
+		\item \href{https://www.francenum.gouv.fr/activateurs/e-declic}{lien}
+		\item \href{https://annuaire-entreprises.data.gouv.fr/entreprise/e-declic-453413296}{lien}
+		\item \href{https://entreprises.lefigaro.fr/e-declic-56/entreprise-453413296}{lien}
+	\end{itemize}
+
 \end{frame}
 
 \end{document}
