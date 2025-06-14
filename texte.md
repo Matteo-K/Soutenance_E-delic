@@ -7,22 +7,43 @@ Ce stage c'est déroulé du 7 avril au 1er juin soit une période de 8 semaines.
 
 # Présentation générale de la structure d'acceuil
 
-E-declic est une agence web français situé à brech dans le morbihan (Soit entre lorient et vannes). Pour faire simple, une agence web est une entreprise spécialisé dans le développement et la gestion de solution numériques adaptés pour des clients. Cela passe par des sites internets, des application web et leurs référencements en ligne.
+## Informations générales
 
-E-declic est une PME.
+E-declic est une agence web privé français. Pour faire simple, une agence web est une entreprise spécialisé dans le développement et la gestion de solution numériques adaptés pour des clients. Cela passe par des sites internets, des application web et leurs référencements en ligne.
+
+## Activité et finalité
+
+## Chiffres clés
+
+## Localisation
+
+## Coordination
+
+E-declic est une entreprise dirigé par Mr. Morvant accessoirement mon tuteur de stage,
+en intégrant cette entreprise à travers ce stage, j'ai rejoint l'équipe de développeur qui compose actuellement 2 développeurs frontend (Ceux qui vont gérer l'interface du site) et d'une développeuse backend (Qui est chargé de gérer le système du site).
+
+L'équipe d'e-declic est également composé d'une assitante de direction. Et d'un chargé de webmarketing 
+qui va par exemple aidé au référencement des sites
 
 # Présentation du sujet de stage
 
+## Sujet de stage
+
+## Problématiques
+
+## Missions confiées
+
 ## Principales difficultés attendues
-
-- Gestion des disponibilités
-
-L'application vise a être autonomone et donc chaque hébergements gère ses produits
-
 
 # Environnement de travail
 
+## Outils utilisés
 
+## Langages utilisés
+
+## Moyens d'organisation du projet
+
+## Planning Gantt et organisation personnelle
 
 # Présentation de vos réalisations
 
@@ -92,3 +113,9 @@ nécessiterait des améliorations.
 Un parcours de commande fluide et sécurisé, permettant aux utilisateurs de réserver et payer leurs produits facilement. Le système a permis d’éviter les commandes de produits indisponibles et d’améliorer l’expérience client.
 
 # Conclusion
+
+## Bilan de la situation
+
+## Bilan technique
+
+## Bilan humain

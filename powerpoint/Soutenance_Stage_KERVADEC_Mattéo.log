@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.2)  14 JUN 2025 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.2)  14 JUN 2025 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1280,10 +1280,10 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
 <../img/logo_e-declic.png, id=42, 1304.875pt x 494.84875pt>
 File: ../img/logo_e-declic.png Graphic file (type png)
 <use ../img/logo_e-declic.png>
-Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 164.
+Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 165.
 (pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
 
-Overfull \hbox (18.11826pt too wide) in paragraph at lines 164--164
+Overfull \hbox (18.11826pt too wide) in paragraph at lines 165--165
 [][]  
  []
 
@@ -1292,75 +1292,75 @@ Overfull \hbox (18.11826pt too wide) in paragraph at lines 164--164
  <../img/logo_e-declic.png>]
 File: ../img/logo_e-declic.png Graphic file (type png)
 <use ../img/logo_e-declic.png>
-Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 192.
+Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 190.
 (pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
 
-Overfull \hbox (18.11826pt too wide) in paragraph at lines 192--192
+Overfull \hbox (18.11826pt too wide) in paragraph at lines 190--190
 [][]  
  []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 192.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 192.
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 192.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 192.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 192.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 192.
-
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 192.
-
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 192.
 
 [4
-
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
-File: ../img/logo_e-declic.png Graphic file (type png)
-<use ../img/logo_e-declic.png>
-Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 214.
-(pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
-
-Overfull \hbox (18.11826pt too wide) in paragraph at lines 214--214
-[][]  
- []
-
-<../img/localisation.png, id=58, 1283.79625pt x 944.52875pt>
-File: ../img/localisation.png Graphic file (type png)
-<use ../img/localisation.png>
-Package pdftex.def Info: ../img/localisation.png  used on input line 214.
-(pdftex.def)             Requested size: 212.69875pt x 156.49014pt.
-
-Overfull \vbox (12.93549pt too high) detected at line 214
- []
-
-[5
-
- <../img/localisation.png>]
-File: ../img/logo_e-declic.png Graphic file (type png)
-<use ../img/logo_e-declic.png>
-Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 239.
-(pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
-
-Overfull \hbox (18.11826pt too wide) in paragraph at lines 239--239
-[][]  
- []
-
-[6
 
 ]
 File: ../img/logo_e-declic.png Graphic file (type png)
 <use ../img/logo_e-declic.png>
-Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 265.
+Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 223.
 (pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
 
-Overfull \hbox (18.11826pt too wide) in paragraph at lines 265--265
+Overfull \hbox (18.11826pt too wide) in paragraph at lines 223--223
+[][]  
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 223.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 223.
+
+[5
+
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
+File: ../img/logo_e-declic.png Graphic file (type png)
+<use ../img/logo_e-declic.png>
+Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 245.
+(pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
+
+Overfull \hbox (18.11826pt too wide) in paragraph at lines 245--245
+[][]  
+ []
+
+<../img/localisation.png, id=63, 1283.79625pt x 944.52875pt>
+File: ../img/localisation.png Graphic file (type png)
+<use ../img/localisation.png>
+Package pdftex.def Info: ../img/localisation.png  used on input line 245.
+(pdftex.def)             Requested size: 212.69875pt x 156.49014pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 245.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 245.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 245.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 245.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 245.
+
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 245.
+
+
+Overfull \vbox (12.93549pt too high) detected at line 245
+ []
+
+[6
+
+ <../img/localisation.png>]
+File: ../img/logo_e-declic.png Graphic file (type png)
+<use ../img/logo_e-declic.png>
+Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 271.
+(pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
+
+Overfull \hbox (18.11826pt too wide) in paragraph at lines 271--271
 [][]  
  []
 
@@ -1369,20 +1369,20 @@ Overfull \hbox (18.11826pt too wide) in paragraph at lines 265--265
 ]
 File: ../img/logo_e-declic.png Graphic file (type png)
 <use ../img/logo_e-declic.png>
-Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 287.
+Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 293.
 (pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
 
-Overfull \hbox (18.11826pt too wide) in paragraph at lines 287--287
+Overfull \hbox (18.11826pt too wide) in paragraph at lines 293--293
 [][]  
  []
 
 <../img/coordination.png, id=80, 743.77875pt x 564.1075pt>
 File: ../img/coordination.png Graphic file (type png)
 <use ../img/coordination.png>
-Package pdftex.def Info: ../img/coordination.png  used on input line 287.
+Package pdftex.def Info: ../img/coordination.png  used on input line 293.
 (pdftex.def)             Requested size: 206.32727pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 287
+Overfull \vbox (12.93549pt too high) detected at line 293
  []
 
 [8
@@ -1393,15 +1393,15 @@ Overfull \vbox (12.93549pt too high) detected at line 287
 
 ]
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 345.
+nput line 351.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 345.
+nput line 351.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree0.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
-nput line 345.
+nput line 351.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree3.fd)
 [11
@@ -1409,24 +1409,24 @@ nput line 345.
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/
 share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free0.enc}{/usr/share/
 texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free3.enc}]
-Overfull \vbox (125.522pt too high) detected at line 357
+Overfull \vbox (125.522pt too high) detected at line 363
  []
 
 [12
 
 ]
-Overfull \hbox (30.73087pt too wide) detected at line 384
+Overfull \hbox (30.73087pt too wide) detected at line 390
  [] 
  []
 
 
-Overfull \vbox (12.79158pt too high) detected at line 384
+Overfull \vbox (12.79158pt too high) detected at line 390
  []
 
 [13
 
 ]
-Overfull \hbox (30.73087pt too wide) detected at line 411
+Overfull \hbox (30.73087pt too wide) detected at line 417
  [] 
  []
 
@@ -1438,32 +1438,32 @@ Overfull \hbox (30.73087pt too wide) detected at line 411
 <../img/logo_looping.png, id=141, 711.65875pt x 355.3275pt>
 File: ../img/logo_looping.png Graphic file (type png)
 <use ../img/logo_looping.png>
-Package pdftex.def Info: ../img/logo_looping.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_looping.png  used on input line 495.
 (pdftex.def)             Requested size: 38.40836pt x 19.1771pt.
 <../img/logo_figma.png, id=142, 1204.5pt x 1806.75pt>
 File: ../img/logo_figma.png Graphic file (type png)
 <use ../img/logo_figma.png>
-Package pdftex.def Info: ../img/logo_figma.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_figma.png  used on input line 495.
 (pdftex.def)             Requested size: 14.22546pt x 21.33955pt.
 <../img/logo_windsurf.png, id=143, 1027.84pt x 1027.84pt>
 File: ../img/logo_windsurf.png Graphic file (type png)
 <use ../img/logo_windsurf.png>
-Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 <../img/logo_postman.png, id=144, 225.84375pt x 225.84375pt>
 File: ../img/logo_postman.png Graphic file (type png)
 <use ../img/logo_postman.png>
-Package pdftex.def Info: ../img/logo_postman.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_postman.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33821pt x 21.33821pt.
 <../img/logo_github.png, id=145, 1027.84pt x 1027.84pt>
 File: ../img/logo_github.png Graphic file (type png)
 <use ../img/logo_github.png>
-Package pdftex.def Info: ../img/logo_github.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_github.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 <../img/logo_slack.png, id=146, 513.92pt x 513.92pt>
 File: ../img/logo_slack.png Graphic file (type png)
 <use ../img/logo_slack.png>
-Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_slack.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33746pt x 21.33746pt.
  [16
 
@@ -1471,135 +1471,135 @@ Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
 ../img/logo_postman.png> <../img/logo_github.png> <../img/logo_slack.png>]
 File: ../img/logo_looping.png Graphic file (type png)
 <use ../img/logo_looping.png>
-Package pdftex.def Info: ../img/logo_looping.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_looping.png  used on input line 495.
 (pdftex.def)             Requested size: 38.40836pt x 19.1771pt.
 File: ../img/logo_figma.png Graphic file (type png)
 <use ../img/logo_figma.png>
-Package pdftex.def Info: ../img/logo_figma.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_figma.png  used on input line 495.
 (pdftex.def)             Requested size: 14.22546pt x 21.33955pt.
 File: ../img/logo_windsurf.png Graphic file (type png)
 <use ../img/logo_windsurf.png>
-Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_postman.png Graphic file (type png)
 <use ../img/logo_postman.png>
-Package pdftex.def Info: ../img/logo_postman.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_postman.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33821pt x 21.33821pt.
 File: ../img/logo_github.png Graphic file (type png)
 <use ../img/logo_github.png>
-Package pdftex.def Info: ../img/logo_github.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_github.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_slack.png Graphic file (type png)
 <use ../img/logo_slack.png>
-Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_slack.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33746pt x 21.33746pt.
  [17
 
 ]
 File: ../img/logo_looping.png Graphic file (type png)
 <use ../img/logo_looping.png>
-Package pdftex.def Info: ../img/logo_looping.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_looping.png  used on input line 495.
 (pdftex.def)             Requested size: 38.40836pt x 19.1771pt.
 File: ../img/logo_figma.png Graphic file (type png)
 <use ../img/logo_figma.png>
-Package pdftex.def Info: ../img/logo_figma.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_figma.png  used on input line 495.
 (pdftex.def)             Requested size: 14.22546pt x 21.33955pt.
 File: ../img/logo_windsurf.png Graphic file (type png)
 <use ../img/logo_windsurf.png>
-Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_postman.png Graphic file (type png)
 <use ../img/logo_postman.png>
-Package pdftex.def Info: ../img/logo_postman.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_postman.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33821pt x 21.33821pt.
 File: ../img/logo_github.png Graphic file (type png)
 <use ../img/logo_github.png>
-Package pdftex.def Info: ../img/logo_github.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_github.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_slack.png Graphic file (type png)
 <use ../img/logo_slack.png>
-Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_slack.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33746pt x 21.33746pt.
  [18
 
 ]
 File: ../img/logo_looping.png Graphic file (type png)
 <use ../img/logo_looping.png>
-Package pdftex.def Info: ../img/logo_looping.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_looping.png  used on input line 495.
 (pdftex.def)             Requested size: 38.40836pt x 19.1771pt.
 File: ../img/logo_figma.png Graphic file (type png)
 <use ../img/logo_figma.png>
-Package pdftex.def Info: ../img/logo_figma.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_figma.png  used on input line 495.
 (pdftex.def)             Requested size: 14.22546pt x 21.33955pt.
 File: ../img/logo_windsurf.png Graphic file (type png)
 <use ../img/logo_windsurf.png>
-Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_postman.png Graphic file (type png)
 <use ../img/logo_postman.png>
-Package pdftex.def Info: ../img/logo_postman.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_postman.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33821pt x 21.33821pt.
 File: ../img/logo_github.png Graphic file (type png)
 <use ../img/logo_github.png>
-Package pdftex.def Info: ../img/logo_github.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_github.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_slack.png Graphic file (type png)
 <use ../img/logo_slack.png>
-Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_slack.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33746pt x 21.33746pt.
  [19
 
 ]
 File: ../img/logo_looping.png Graphic file (type png)
 <use ../img/logo_looping.png>
-Package pdftex.def Info: ../img/logo_looping.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_looping.png  used on input line 495.
 (pdftex.def)             Requested size: 38.40836pt x 19.1771pt.
 File: ../img/logo_figma.png Graphic file (type png)
 <use ../img/logo_figma.png>
-Package pdftex.def Info: ../img/logo_figma.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_figma.png  used on input line 495.
 (pdftex.def)             Requested size: 14.22546pt x 21.33955pt.
 File: ../img/logo_windsurf.png Graphic file (type png)
 <use ../img/logo_windsurf.png>
-Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_postman.png Graphic file (type png)
 <use ../img/logo_postman.png>
-Package pdftex.def Info: ../img/logo_postman.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_postman.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33821pt x 21.33821pt.
 File: ../img/logo_github.png Graphic file (type png)
 <use ../img/logo_github.png>
-Package pdftex.def Info: ../img/logo_github.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_github.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_slack.png Graphic file (type png)
 <use ../img/logo_slack.png>
-Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_slack.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33746pt x 21.33746pt.
  [20
 
 ]
 File: ../img/logo_looping.png Graphic file (type png)
 <use ../img/logo_looping.png>
-Package pdftex.def Info: ../img/logo_looping.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_looping.png  used on input line 495.
 (pdftex.def)             Requested size: 38.40836pt x 19.1771pt.
 File: ../img/logo_figma.png Graphic file (type png)
 <use ../img/logo_figma.png>
-Package pdftex.def Info: ../img/logo_figma.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_figma.png  used on input line 495.
 (pdftex.def)             Requested size: 14.22546pt x 21.33955pt.
 File: ../img/logo_windsurf.png Graphic file (type png)
 <use ../img/logo_windsurf.png>
-Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_windsurf.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_postman.png Graphic file (type png)
 <use ../img/logo_postman.png>
-Package pdftex.def Info: ../img/logo_postman.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_postman.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33821pt x 21.33821pt.
 File: ../img/logo_github.png Graphic file (type png)
 <use ../img/logo_github.png>
-Package pdftex.def Info: ../img/logo_github.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_github.png  used on input line 495.
 (pdftex.def)             Requested size: 21.32962pt x 21.32962pt.
 File: ../img/logo_slack.png Graphic file (type png)
 <use ../img/logo_slack.png>
-Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
+Package pdftex.def Info: ../img/logo_slack.png  used on input line 495.
 (pdftex.def)             Requested size: 21.33746pt x 21.33746pt.
  [21
 
@@ -1607,15 +1607,15 @@ Package pdftex.def Info: ../img/logo_slack.png  used on input line 489.
 <../img/logo_symfony.png, id=191, 513.92pt x 513.92pt>
 File: ../img/logo_symfony.png Graphic file (type png)
 <use ../img/logo_symfony.png>
-Package pdftex.def Info: ../img/logo_symfony.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_symfony.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 <../img/logo_twig.png, id=192, 513.92pt x 513.92pt>
 File: ../img/logo_twig.png Graphic file (type png)
 <use ../img/logo_twig.png>
-Package pdftex.def Info: ../img/logo_twig.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_twig.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 
-Overfull \vbox (14.09662pt too high) detected at line 552
+Overfull \vbox (14.09662pt too high) detected at line 558
  []
 
 [22
@@ -1623,14 +1623,14 @@ Overfull \vbox (14.09662pt too high) detected at line 552
  <../img/logo_symfony.png> <../img/logo_twig.png>]
 File: ../img/logo_symfony.png Graphic file (type png)
 <use ../img/logo_symfony.png>
-Package pdftex.def Info: ../img/logo_symfony.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_symfony.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 File: ../img/logo_twig.png Graphic file (type png)
 <use ../img/logo_twig.png>
-Package pdftex.def Info: ../img/logo_twig.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_twig.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 
-Overfull \vbox (14.09662pt too high) detected at line 552
+Overfull \vbox (14.09662pt too high) detected at line 558
  []
 
 [23
@@ -1638,14 +1638,14 @@ Overfull \vbox (14.09662pt too high) detected at line 552
 ]
 File: ../img/logo_symfony.png Graphic file (type png)
 <use ../img/logo_symfony.png>
-Package pdftex.def Info: ../img/logo_symfony.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_symfony.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 File: ../img/logo_twig.png Graphic file (type png)
 <use ../img/logo_twig.png>
-Package pdftex.def Info: ../img/logo_twig.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_twig.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 
-Overfull \vbox (14.09662pt too high) detected at line 552
+Overfull \vbox (14.09662pt too high) detected at line 558
  []
 
 [24
@@ -1653,14 +1653,14 @@ Overfull \vbox (14.09662pt too high) detected at line 552
 ]
 File: ../img/logo_symfony.png Graphic file (type png)
 <use ../img/logo_symfony.png>
-Package pdftex.def Info: ../img/logo_symfony.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_symfony.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 File: ../img/logo_twig.png Graphic file (type png)
 <use ../img/logo_twig.png>
-Package pdftex.def Info: ../img/logo_twig.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_twig.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 
-Overfull \vbox (14.09662pt too high) detected at line 552
+Overfull \vbox (14.09662pt too high) detected at line 558
  []
 
 [25
@@ -1668,14 +1668,14 @@ Overfull \vbox (14.09662pt too high) detected at line 552
 ]
 File: ../img/logo_symfony.png Graphic file (type png)
 <use ../img/logo_symfony.png>
-Package pdftex.def Info: ../img/logo_symfony.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_symfony.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 File: ../img/logo_twig.png Graphic file (type png)
 <use ../img/logo_twig.png>
-Package pdftex.def Info: ../img/logo_twig.png  used on input line 552.
+Package pdftex.def Info: ../img/logo_twig.png  used on input line 558.
 (pdftex.def)             Requested size: 21.33746pt x 21.33955pt.
 
-Overfull \vbox (14.09662pt too high) detected at line 552
+Overfull \vbox (14.09662pt too high) detected at line 558
  []
 
 [26
@@ -1687,18 +1687,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{env<1>}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.593 \end{frame}
+l.599 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{env}) has bee
 n already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.593 \end{frame}
+l.599 \end{frame}
                  
 <../img/gantt.png, id=228, 1927.2pt x 1204.5pt>
 File: ../img/gantt.png Graphic file (type png)
 <use ../img/gantt.png>
-Package pdftex.def Info: ../img/gantt.png  used on input line 593.
+Package pdftex.def Info: ../img/gantt.png  used on input line 599.
 (pdftex.def)             Requested size: 227.60759pt x 142.26378pt.
  [28
 
@@ -1710,10 +1710,10 @@ Package pdftex.def Info: ../img/gantt.png  used on input line 593.
 <../img/conception/mcd_V1.jpg, id=255, 1090.82532pt x 978.65625pt>
 File: ../img/conception/mcd_V1.jpg Graphic file (type jpg)
 <use ../img/conception/mcd_V1.jpg>
-Package pdftex.def Info: ../img/conception/mcd_V1.jpg  used on input line 679.
+Package pdftex.def Info: ../img/conception/mcd_V1.jpg  used on input line 685.
 (pdftex.def)             Requested size: 174.4191pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 679
+Overfull \vbox (12.93549pt too high) detected at line 685
  []
 
 [31
@@ -1722,10 +1722,10 @@ Overfull \vbox (12.93549pt too high) detected at line 679
 <../img/conception/mcd_V2.jpg, id=265, 1755.55875pt x 1106.63437pt>
 File: ../img/conception/mcd_V2.jpg Graphic file (type jpg)
 <use ../img/conception/mcd_V2.jpg>
-Package pdftex.def Info: ../img/conception/mcd_V2.jpg  used on input line 679.
+Package pdftex.def Info: ../img/conception/mcd_V2.jpg  used on input line 685.
 (pdftex.def)             Requested size: 248.24101pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 679
+Overfull \vbox (12.93549pt too high) detected at line 685
  []
 
 [32
@@ -1734,10 +1734,10 @@ Overfull \vbox (12.93549pt too high) detected at line 679
 <../img/conception/mcd_V3.jpg, id=274, 2041.6275pt x 1411.52344pt>
 File: ../img/conception/mcd_V3.jpg Graphic file (type jpg)
 <use ../img/conception/mcd_V3.jpg>
-Package pdftex.def Info: ../img/conception/mcd_V3.jpg  used on input line 679.
+Package pdftex.def Info: ../img/conception/mcd_V3.jpg  used on input line 685.
 (pdftex.def)             Requested size: 226.32426pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 679
+Overfull \vbox (12.93549pt too high) detected at line 685
  []
 
 [33
@@ -1746,10 +1746,10 @@ Overfull \vbox (12.93549pt too high) detected at line 679
 <../img/conception/mcd_V4.jpg, id=283, 2041.6275pt x 1663.71562pt>
 File: ../img/conception/mcd_V4.jpg Graphic file (type jpg)
 <use ../img/conception/mcd_V4.jpg>
-Package pdftex.def Info: ../img/conception/mcd_V4.jpg  used on input line 679.
+Package pdftex.def Info: ../img/conception/mcd_V4.jpg  used on input line 685.
 (pdftex.def)             Requested size: 192.02516pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 679
+Overfull \vbox (12.93549pt too high) detected at line 685
  []
 
 [34
@@ -1758,10 +1758,10 @@ Overfull \vbox (12.93549pt too high) detected at line 679
 <../img/conception/mcd_V5.jpg, id=292, 2041.6275pt x 1754.05313pt>
 File: ../img/conception/mcd_V5.jpg Graphic file (type jpg)
 <use ../img/conception/mcd_V5.jpg>
-Package pdftex.def Info: ../img/conception/mcd_V5.jpg  used on input line 679.
+Package pdftex.def Info: ../img/conception/mcd_V5.jpg  used on input line 685.
 (pdftex.def)             Requested size: 182.1186pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 679
+Overfull \vbox (12.93549pt too high) detected at line 685
  []
 
 [35
@@ -1772,11 +1772,11 @@ Overfull \vbox (12.93549pt too high) detected at line 679
 <../img/maquette/inscription.png, id=306, 1927.2pt x 1204.5pt>
 File: ../img/maquette/inscription.png Graphic file (type png)
 <use ../img/maquette/inscription.png>
-Package pdftex.def Info: ../img/maquette/inscription.png  used on input line 75
-8.
+Package pdftex.def Info: ../img/maquette/inscription.png  used on input line 76
+4.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 758
+Overfull \vbox (12.93549pt too high) detected at line 764
  []
 
 [37
@@ -1786,10 +1786,10 @@ Overfull \vbox (12.93549pt too high) detected at line 758
 File: ../img/maquette/controlle_acces_client.png Graphic file (type png)
 <use ../img/maquette/controlle_acces_client.png>
 Package pdftex.def Info: ../img/maquette/controlle_acces_client.png  used on in
-put line 758.
+put line 764.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 758
+Overfull \vbox (12.93549pt too high) detected at line 764
  []
 
 [38
@@ -1799,10 +1799,10 @@ Overfull \vbox (12.93549pt too high) detected at line 758
 File: ../img/maquette/controlle_acces_hebergement.png Graphic file (type png)
 <use ../img/maquette/controlle_acces_hebergement.png>
 Package pdftex.def Info: ../img/maquette/controlle_acces_hebergement.png  used 
-on input line 758.
+on input line 764.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 758
+Overfull \vbox (12.93549pt too high) detected at line 764
  []
 
 [39
@@ -1811,11 +1811,11 @@ Overfull \vbox (12.93549pt too high) detected at line 758
 <../img/localhost/usurpation.png, id=335, 1927.2pt x 1204.5pt>
 File: ../img/localhost/usurpation.png Graphic file (type png)
 <use ../img/localhost/usurpation.png>
-Package pdftex.def Info: ../img/localhost/usurpation.png  used on input line 75
-8.
+Package pdftex.def Info: ../img/localhost/usurpation.png  used on input line 76
+4.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 758
+Overfull \vbox (12.93549pt too high) detected at line 764
  []
 
 [40
@@ -1827,10 +1827,10 @@ Overfull \vbox (12.93549pt too high) detected at line 758
 File: ../img/maquette/crud_produit.png Graphic file (type png)
 <use ../img/maquette/crud_produit.png>
 Package pdftex.def Info: ../img/maquette/crud_produit.png  used on input line 8
-32.
+38.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 832
+Overfull \vbox (12.93549pt too high) detected at line 838
  []
 
 [42
@@ -1840,10 +1840,10 @@ Overfull \vbox (12.93549pt too high) detected at line 832
 File: ../img/maquette/disponibilite_produit.png Graphic file (type png)
 <use ../img/maquette/disponibilite_produit.png>
 Package pdftex.def Info: ../img/maquette/disponibilite_produit.png  used on inp
-ut line 832.
+ut line 838.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 832
+Overfull \vbox (12.93549pt too high) detected at line 838
  []
 
 [43
@@ -1852,10 +1852,10 @@ Overfull \vbox (12.93549pt too high) detected at line 832
 File: ../img/maquette/controlle_acces_client.png Graphic file (type png)
 <use ../img/maquette/controlle_acces_client.png>
 Package pdftex.def Info: ../img/maquette/controlle_acces_client.png  used on in
-put line 832.
+put line 838.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 832
+Overfull \vbox (12.93549pt too high) detected at line 838
  []
 
 [44
@@ -1864,10 +1864,10 @@ Overfull \vbox (12.93549pt too high) detected at line 832
 <../img/maquette/panier.png, id=375, 1927.2pt x 1204.5pt>
 File: ../img/maquette/panier.png Graphic file (type png)
 <use ../img/maquette/panier.png>
-Package pdftex.def Info: ../img/maquette/panier.png  used on input line 832.
+Package pdftex.def Info: ../img/maquette/panier.png  used on input line 838.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 832
+Overfull \vbox (12.93549pt too high) detected at line 838
  []
 
 [45
@@ -1878,10 +1878,10 @@ Overfull \vbox (12.93549pt too high) detected at line 832
 <../img/localhost/stripe.png, id=389, 1927.2pt x 1204.5pt>
 File: ../img/localhost/stripe.png Graphic file (type png)
 <use ../img/localhost/stripe.png>
-Package pdftex.def Info: ../img/localhost/stripe.png  used on input line 883.
+Package pdftex.def Info: ../img/localhost/stripe.png  used on input line 889.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 883
+Overfull \vbox (12.93549pt too high) detected at line 889
  []
 
 [47
@@ -1891,10 +1891,10 @@ Overfull \vbox (12.93549pt too high) detected at line 883
 File: ../img/maquette/historique_commande.png Graphic file (type png)
 <use ../img/maquette/historique_commande.png>
 Package pdftex.def Info: ../img/maquette/historique_commande.png  used on input
- line 883.
+ line 889.
 (pdftex.def)             Requested size: 250.36836pt x 156.49014pt.
 
-Overfull \vbox (12.93549pt too high) detected at line 883
+Overfull \vbox (12.93549pt too high) detected at line 889
  []
 
 [48
@@ -1910,10 +1910,10 @@ Overfull \vbox (12.93549pt too high) detected at line 883
 ]
 File: ../img/logo_e-declic.png Graphic file (type png)
 <use ../img/logo_e-declic.png>
-Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 968.
+Package pdftex.def Info: ../img/logo_e-declic.png  used on input line 974.
 (pdftex.def)             Requested size: 75.02376pt x 28.45274pt.
 
-Overfull \hbox (18.11826pt too wide) in paragraph at lines 968--968
+Overfull \hbox (18.11826pt too wide) in paragraph at lines 974--974
 [][]  
  []
 
@@ -1945,25 +1945,24 @@ ot changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 35838 strings out of 474222
- 764525 string characters out of 5748734
- 1936975 words of memory out of 5000000
- 57334 multiletter control sequences out of 15000+600000
- 625434 words of font info for 93 fonts, out of 8000000 for 9000
+ 35844 strings out of 474222
+ 764620 string characters out of 5748734
+ 1935975 words of memory out of 5000000
+ 57339 multiletter control sequences out of 15000+600000
+ 625814 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,123p,1900b,1169s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,19n,123p,1900b,1171s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fr
 ee-Solid.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 s12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmsso12.pfb>
-Output written on Soutenance_Stage_KERVADEC_Mattéo.pdf (54 pages, 4126636 byte
+fb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb>
+Output written on Soutenance_Stage_KERVADEC_Mattéo.pdf (54 pages, 4107615 byte
 s).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 382 compressed objects within 4 object streams
+ 534 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
  138 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
