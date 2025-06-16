@@ -7,6 +7,8 @@
 \usepackage[absolute,overlay]{textpos}
 
 \usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage[abs]{overpic}
 \usetikzlibrary{positioning}
 \usepackage{siunitx}
 \usepackage{xcolor}
@@ -30,6 +32,8 @@
 \setbeamercolor{structure}{fg=black}
 \setbeamercolor{progress bar}{fg=darkgray,bg=gray!30}
 
+\setbeamerfont{frametitle}{size=\Large}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=black,      % Liens internes (table des matières par ex.)
@@ -44,7 +48,7 @@
 \newcommand{\kpiBox}[3]{
   \begin{tikzpicture}[baseline]
     \node[draw=#3!80!black, fill=#3!10, rounded corners=5pt,
-          minimum width=3.6cm, minimum height=1.8cm, % largeur et hauteur fixes
+          minimum width=3.9cm, minimum height=1.8cm, % largeur et hauteur fixes
           text centered, align=center, line width=0.5pt, inner sep=4pt] (box) {
       \begin{tabular}{@{}c@{}}
         \large #2 \\
@@ -152,12 +156,12 @@
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
     			\begin{itemize}
-      			\item Dénomination sociale : E-declic
-      			\item Entreprise privé
-      			\item Implémentation : Depuis 2004
-				\item Nationalité : Française
-      			\item Forme juridique : SARL
-      			\item Secteur d'activité : Technologies de l'Information et de la Communication (TIC)
+      			\item<1-> \textbf{Dénomination sociale} : E-declic.
+      			\item<1-> Entreprise privée.
+      			\item<2-> \textbf{Implantation} : Depuis 2004.
+				\item<2-> \textbf{Nationalité} : Française.
+      			\item<2-> \textbf{Forme juridique} : SARL.
+      			\item<3-> \textbf{Secteur d'activité} : Technologies de l'Information et de la Communication. (TIC)
     			\end{itemize}
   		\end{minipage}
 	\end{center}
@@ -174,15 +178,20 @@
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
 			\begin{itemize}
-  				\item Activité principale : Programmation informatique (NAF : 6201Z)
-  				\item Services proposés :
+  				\item<1-> \textbf{Activité principale} : Programmation informatique. (NAF : 6201Z)
+  				\item<2-> \textbf{Services proposés} :
   				\begin{itemize}
   					\item Développement de site web
+  					\begin{itemize}
+  						\item site vitrine
+  						\item logiciel métier
+  						\item Intégration ERP et synchronisation e-commerce
+  					\end{itemize}
   					\item Maintenance informatique
-  					\item Communication graphique
-  					\item Organisation d'évènements
+  					\item Hébergement de site web
+  					\item Webmarketing
   				\end{itemize}
-  				\item Finalités : Apporter des solutions numériques et évènementielles sur mesure aux entreprises
+  				\item<3-> \textbf{Finalités} : Apporter des solutions numériques sur mesure aux entreprises.
   			\end{itemize}
   		\end{minipage}
 	\end{center}
@@ -202,19 +211,22 @@
   				\column{0.50\textwidth}
     					\hfill
     					\kpiBox{Projets réalisés}{$+ 500$}{blue}
+    					\pause
     					\hfill
     					\vspace{0.5em}
   					\centering
     					\kpiBox{Salariés}{6 à 9}{orange}
+    					\pause
     					\hfill
   				\column{0.50\textwidth}
     					\hfill
     					\kpiBox{Google Partner}{Depuis 2020}{red}
+    					\pause
 					\hfill
     					\vspace{0.5em}
     					\hfill
   					\centering
-    					\kpiBox{Capital social}{$50.000,00$ €}{green}
+    					\kpiBox{Campagne google ads}{$+ 150$}{green}
     					\hfill
 			\end{columns}
   		\end{minipage}
@@ -232,9 +244,14 @@
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
 			\begin{figure}[t]
-  				\includegraphics[height=5.5cm]{../img/localisation.png}
-				\caption{				
-  					\href{https://maps.app.goo.gl/11j9ZHKrL6TVrdYB6}{\underline{32 rue du Danemark}}.\\
+			  	\hspace*{-1.5cm}
+  				\begin{overpic}[width=0.95\textwidth]{../img/localisationZoom.png}
+    					\put(210,-12){\includegraphics[width=0.4\textwidth]{../img/localisation.png}}
+  				\end{overpic}
+  				\vspace{0.3cm}
+				\caption{
+				  	\centering			
+  					\href{https://maps.app.goo.gl/11j9ZHKrL6TVrdYB6}{\underline{32 rue du Danemark, Brech 56400}}.\\
   					\textit{Source : Google Maps.}
 				}
   				\label{fig:localisation}
@@ -248,22 +265,24 @@
 	\logoEdeclic
 	
 	\begin{beamercolorbox}[wd=\paperwidth,ht=1.5em,dp=0.5em,leftskip=0.5cm]{section in head/foot}
-  		\large \textbf{Besions et objectifs}
+  		\large \textbf{Bsoins et objectifs}
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
 			\textbf{Besoins}
 			\begin{itemize}
-				\item Répondre aux demandes en développement web
-				\item Créer des outils numériques sur mesure
+				\item Répondre aux demandes en développement web.
+				\item Créer des outils numériques sur mesure.
 			\end{itemize}
+	
+			\pause	
 	
 			\textbf{Objectifs}
 			\begin{itemize}
-				\item Assurer la qualité et la fiabilité des services
-				\item Maintenir une rentabilité positive
-				\item Fidéliser la clientèle locale et régionale
+				\item Assurer la qualité et la fiabilité des services.
+				\item Maintenir une rentabilité positive.
+				\item Créer des sites web écoresponsables.
 			\end{itemize}
   		\end{minipage}
 	\end{center}
@@ -282,7 +301,8 @@
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/coordination.png}
   				\caption{
-    					\href{https://www.e-declic.com/agence-web/equipe/}{\underline{Moyen de coordination}}.\\
+					\centering    					
+    					\href{https://www.e-declic.com/agence-web/equipe/}{\underline{Organigramme de l'entreprise}}.\\
     					\textit{Source : Mattéo Kervadec}
   				}
   				\label{fig:coordination}
@@ -328,17 +348,23 @@
         			\item Interactives \& Responsives
       		\end{itemize}
 
+			\pause
+
     			\vspace{0.5em}
     			\faCheckCircle\ \textbf{Bonnes pratiques :}
       		\begin{itemize}
         			\item Programmation, performance et sécurité
       		\end{itemize}
 
+			\pause
+
     			\vspace{0.5em}
     			\faProjectDiagram\ \textbf{Cycle de développement :}
       		\begin{itemize}
         			\item Planification → Conception → Implémentation → Tests
       		\end{itemize}
+
+			\pause
 
     			\vspace{0.5em}
     			\faTasks\ \textbf{Missions possibles :}
@@ -352,7 +378,7 @@
 
 \begin{frame}{Les missions et objectifs du stage}
 
-	Comment répondre aux besoins spécifiques de réservation en ligne pour des hébergements touristiques via une application web, et permettre à l’agence E-declic d’élargir son offre de services ?
+	Comment répondre aux besoins spécifiques de réservation en ligne de produits pour des hébergements touristiques via une application web, et permettre à l’agence E-declic d’élargir son offre de services ?
 			
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
@@ -364,7 +390,7 @@
 
 \begin{frame}{Les missions et objectifs du stage}
 
-	Comment répondre aux besoins spécifiques de réservation en ligne pour des hébergements touristiques via une application web, et permettre à l’agence E-declic d’élargir son offre de services ?
+	Comment répondre aux besoins spécifiques de réservation en ligne de produits pour des hébergements touristiques via une application web, et permettre à l’agence E-declic d’élargir son offre de services ?
 			
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
@@ -372,16 +398,16 @@
   				\large \textbf{Missions confiées} - \href{https://github.com/Matteo-K/Soutenance_E-delic/blob/main/pdf/cc-painspizzas-camping.pdf}{\underline{(Lien du pdf sur github)}}
 			\end{beamercolorbox}
 			\begin{itemize}
-				\item Gestion d'hébergements
-				\item Gestion d'utilisateur
-				\item Gestion du E-commerce
+				\item<1-> Gestion d'hébergements
+				\item<1-> Gestion d'utilisateur
+				\item<2-> Gestion du E-commerce
 				\begin{itemize}
 					\item Gestion de produit
 					\item Gestion du panier
 					\item Gestion du paiement
 					\item \textbf{Gestion de la disponibilité des produits}
 				\end{itemize}
-				\item Gestion de l'administration
+				\item<3-> Gestion de l'administration
 			\end{itemize}
   		\end{minipage}
   		\vspace{1cm}
@@ -391,7 +417,7 @@
 
 \begin{frame}{Les missions et objectifs du stage}
 
-	Comment répondre aux besoins spécifiques de réservation en ligne pour des hébergements touristiques via une application web, et permettre à l’agence E-declic d’élargir son offre de services ?
+	Comment répondre aux besoins spécifiques de réservation en ligne de produits pour des hébergements touristiques via une application web, et permettre à l’agence E-declic d’élargir son offre de services ?
 			
 	\begin{center}
   		\begin{minipage}{0.9\textwidth}
@@ -400,15 +426,15 @@
 			\end{beamercolorbox}
 			
 			\begin{itemize}
-				\item Gestion multi-utilisateur → multi-rôles
-				\item Gestion de la disponibilité des produits
+				\item<1-> Gestion multi-utilisateur → multi-rôles
+				\item<2-> Gestion de la disponibilité des produits
 				\begin{itemize}
 					\item Gestion du produit
 					\item Gestoin du panier
 					\item Gestion des commandes
 					\item Gestion de l'historique
 				\end{itemize}
-				\item Intégration du paiement via stripe
+				\item<3-> Intégration du paiement via stripe
 			\end{itemize}
   			\vspace{1cm}
   		\end{minipage}
@@ -434,7 +460,7 @@
         					\raggedright
          				\includegraphics[width=1.35cm, height=0.75cm, keepaspectratio]{../img/logo_looping.png} 
          				\hspace{0.1cm} \textbf{Looping} \\ 
-         				Gestionnaire de MCD et modélisation
+         				Gestionnaire de modélisation de base de données
           		  	\end{minipage}
           			\vspace{0.7em}
           			\pause
@@ -444,7 +470,7 @@
         					\raggedright
           				\includegraphics[height=0.75cm]{../img/logo_figma.png}
           				\hspace{0.95cm} \textbf{Figma} \\
-          				Conception des maquettes UI/UX
+          				Conception des maquettes et prototypes
           			\end{minipage}
           			\vspace{0.7em}
           			\pause
@@ -454,7 +480,7 @@
           				\raggedright
           				\includegraphics[width=0.75cm, height=0.75cm]{../img/logo_windsurf.png}
           				\hspace{0.6cm} \textbf{Windsurf} \\ 
-          				Monitoring des performances
+          				Editeur de texte
           			\end{minipage}
           			\pause
           			
@@ -465,7 +491,7 @@
         					\raggedright
           				\includegraphics[width=0.75cm, height=0.75cm]{../img/logo_postman.png}
           				\hspace{0.6cm} \textbf{Postman} \\
-          				Tests des API
+          				Tester et envoyer des requêtes serveurs (API)
           			\end{minipage}
           			\vspace{0.7em}
           			\pause
@@ -510,7 +536,7 @@
         					\raggedright
         					\includegraphics[height=0.75cm]{../img/logo_symfony.png}
         					\hspace{0.6cm} \textbf{Symfony} \\
-        					Framework PHP MVC pour l'architecture backend
+        					Framework PHP pour l'architecture backend
       				\end{minipage}
       				\vspace{0.7em}
           			\pause
@@ -520,7 +546,7 @@
         					\raggedright
         					\includegraphics[height=0.75cm]{../img/logo_twig.png}
         					\hspace{0.6cm} \textbf{Twig} \\
-        					Moteur de templates pour Symfony
+        					Générateur de vues Html pour Symfony
       				\end{minipage}
           			\pause
 
@@ -565,11 +591,11 @@
     \begin{center}
 \begin{minipage}{0.9\textwidth}
     \begin{itemize}
-        \item \textbf{Méthode de travail :} gestion souple, sans cadre agile
-        \item \textbf{Réunions :} point hebdomadaire (lundi 10h)
-        \item \textbf{Suivi des tâches :} carnet de fonctionnalités
-        \item \textbf{Gestion des incidents :} journal des problèmes et solutions
-        \item \textbf{Communication :} échanges quotidiens et à distance via Slack
+        \item<1-> \textbf{Méthode de travail :} gestion souple, sans cadre agile
+        \item<2-> \textbf{Réunion :} point hebdomadaire (lundi 10h)
+        \item<3-> \textbf{Suivi des tâches :} carnet de fonctionnalités
+        \item<4-> \textbf{Gestion des incidents :} journal des problèmes et solutions
+        \item<5-> \textbf{Communication :} échanges quotidiens et à distance via Slack
     \end{itemize}
 \end{minipage}
 
@@ -608,20 +634,22 @@
 	\vspace{0.5em}
 
 	\begin{center}
-  		\only<1> {
+  		\only<1-4> {
   			\begin{minipage}{0.9\textwidth}
-  				\textbf{Situation :} Le projet manquait d’une structure claire pour organiser les données.\\
-  				\textbf{Tâche :} Identifier les fonctionnalités de l'application.\\
+  				\textbf{Situation :} Le projet manquait d’une structure claire pour organiser les données. \pause \\  		
+  				\textbf{Tâche :} Identifier les fonctionnalités de l'application.\pause \\
   				\textbf{Action :}
   			  		\begin{itemize}
   						\item Identification des fonctionnalités
   						\item Réalisation du modèle conceptuel des données (MCD)
   						\item Création d'un \href{https://www.figma.com/design/GuunRMUtzwJjCk1OudcjYl/Pain-Pizza?node-id=0-1&p=f&t=KjBsRt1nqpntIccn-0}{\underline{prototype}} de l'application
   					\end{itemize}
-				\textbf{Résultat :} Modèle clair et globale sur le fonctionnalité facilitant le développement backend.
+  				\pause
+  				
+				\textbf{Résultat :} Modèle clair et globale sur les fonctionnalités facilitant le développement backend.
 			\end{minipage}
 		}
-		\only<2> {
+		\only<5> {
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/conception/mcd_V1.jpg}
 				\caption{	
@@ -632,7 +660,7 @@
   				\label{fig:mcdV1}
   			\end{figure}
 		}
-		\only<3> {
+		\only<6> {
 			\addtocounter{figure}{1}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/conception/mcd_V2.jpg}
@@ -644,7 +672,7 @@
   				\label{fig:mcdV2}
   			\end{figure}
 		}
-		\only<4> {
+		\only<7> {
 			\addtocounter{figure}{2}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/conception/mcd_V3.jpg}
@@ -656,7 +684,7 @@
   				\label{fig:mcdV3}
   			\end{figure}
 		}
-		\only<5> {
+		\only<8> {
 			\addtocounter{figure}{3}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/conception/mcd_V4.jpg}
@@ -668,7 +696,7 @@
   				\label{fig:mcdV4}
   			\end{figure}
 		}
-		\only<6> {
+		\only<9> {
 			\addtocounter{figure}{4}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/conception/mcd_V5.jpg}
@@ -690,16 +718,18 @@
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
-		\only<1> {
+		\only<1-4> {
   			\begin{minipage}{0.9\textwidth}
-  				\textbf{Situation :} Tout les utilisateurs ont un accès libre au service.\\
-  				\textbf{Tâche :} Gestion des rôles et authentification.\\
-  				\textbf{Action :} Mises en places de sécurités.
+  				\textbf{Situation :} Tout les utilisateurs ont un accès libre au service.\pause \\
+  				\textbf{Tâche :} Gérer les rôles et les authentifications.\pause \\
+  				\textbf{Action :} Mise en place de sécurités.
   				\begin{itemize}
   					\item Authentification avec JWT Tokens
-  					\item Controlle d'accès (Security \& Voter)
+  					\item Contrôle d'accès (Security \& Voter)
   					\item Usurpation des utilisateurs (Admin)
   					\end{itemize}
+  				\pause
+
 				\textbf{Résultat :}
 				\begin{itemize}
 					\item Multi-accès sécurisé à la plateforme
@@ -708,7 +738,7 @@
 	  		\end{minipage}
   		}
   		
-  		\only<2> {
+  		\only<5> {
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/inscription.png}
 				\caption{	
@@ -720,7 +750,7 @@
   			\end{figure}
 		}
 		
-		\only<3> {
+		\only<6> {
 			\addtocounter{figure}{1}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/controlle_acces_client.png}
@@ -733,7 +763,7 @@
   			\end{figure}
 		}
 		
-		\only<4> {
+		\only<7> {
 			\addtocounter{figure}{2}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/controlle_acces_hebergement.png}
@@ -746,7 +776,7 @@
   			\end{figure}
 		}
 		
-		\only<5> {
+		\only<8> {
 			\addtocounter{figure}{3}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/localhost/usurpation.png}
@@ -769,21 +799,23 @@
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
-		\only<1> {
+		\only<1-4> {
   			\begin{minipage}{0.9\textwidth}
-  				\textbf{Situation :} Plateforme sans fonctionnalité de commande ou panier.\\
-  				\textbf{Tâche :} Sélectionner un produit suivant sa disponibilité.\\
+  				\textbf{Situation :} Plateforme sans fonctionnalité de commande ou panier. \pause \\
+  				\textbf{Tâche :} Sélectionner un produit suivant sa disponibilité. \pause \\
   				\textbf{Action :}
 				\begin{itemize}
 					\item Gestion des produits
 					\item Gestion du panier (API REST)
 					\item Implémentation d'un service de disponibilité
 				\end{itemize}
+				\pause
+
 				\textbf{Résultat :} Création et sélection de produit fluide et dynamique.
   			\end{minipage}
   		}
   		
-  		\only<2> {
+  		\only<5> {
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/crud_produit.png}
 				\caption{	
@@ -795,7 +827,7 @@
   			\end{figure}
 		}
 		
-		\only<3> {
+		\only<6> {
 			\addtocounter{figure}{1}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/disponibilite_produit.png}
@@ -808,7 +840,7 @@
   			\end{figure}
 		}
 		
-		\only<4> {
+		\only<7> {
 			\addtocounter{figure}{2}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/controlle_acces_client.png}
@@ -821,7 +853,7 @@
   			\end{figure}
 		}
 		
-		\only<5> {
+		\only<8> {
 			\addtocounter{figure}{3}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/panier.png}
@@ -843,15 +875,17 @@
 	\end{beamercolorbox}
 	\vspace{0.5em}
 	\begin{center}
-		\only<1> {	
+		\only<1-4> {	
 	  		\begin{minipage}{0.9\textwidth}
-  				\textbf{Situation :} Conclure la procédure de gestion.\\
-  				\textbf{Tâche :} Volonté d'encaisser et retracer les commandes.\\
+  				\textbf{Situation :} Conclure la procédure de gestion. \pause \\
+  				\textbf{Tâche :} Volonté d'encaisser et retracer les commandes. \pause \\
   				\textbf{Action :}
   				\begin{itemize}
   					\item Integration de stripe pour les paiements sécurisés
   					\item Mise en place d'historique de commande
   				\end{itemize}
+  				\pause
+  				
 				\textbf{Résultat :} Traçage et méthode de paiement fonctionnel qui nécessiterait des améliorations.
 				\begin{itemize}
 					\item Porte-monnaie virtuelle
@@ -860,7 +894,7 @@
   			\end{minipage}
   		}
   		
-  		\only<2> {
+  		\only<5> {
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/localhost/stripe.png}
 				\caption{	
@@ -872,7 +906,7 @@
   			\end{figure}
 		}
 		
-		\only<3> {
+		\only<6> {
 			\addtocounter{figure}{1}
 			\begin{figure}[t]
   				\includegraphics[height=5.5cm]{../img/maquette/historique_commande.png}
@@ -949,6 +983,8 @@
   				\item Satisfaction de la réalisation finale
   			\end{itemize}
   				
+  			\pause
+
   			\textbf{\faTimes\ Déçu de certains points}
   			\begin{itemize}
   				\item Manque d'outis de gestion
@@ -964,7 +1000,7 @@
     \begin{center}
         \vspace{1em}
         \begin{minipage}{0.9\textwidth}
-        		Un grand merci à toute l'équipe de \textbf{e-declic} et mon tuteur de stage \textbf{Michel Morvant} pour l'accueil et leurs accompagnements durant ce stage. \vspace{0.25cm} \\
+        		Un grand merci à toute l'équipe de \textbf{e-declic} et mon tuteur de stage \textbf{M. Morvant Michel} pour l'accueil et leurs accompagnements durant ce stage. \vspace{0.25cm} \\
             Merci à l'\textbf{IUT de Lannion} pour m'avoir offert cette opportunité de formation. \vspace{0.25cm} \\
             Je remercie également \textbf{le jury} pour le temps accordé et l'intérêt porté à mon travail. \vspace{0.25cm} \\
             Enfin, je suis heureux de pouvoir poursuivre cette expérience chez \textbf{e-declic} en \textbf{alternance dès cet été}.
