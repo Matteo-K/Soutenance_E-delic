@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.2)  16 JUN 2025 21:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.6.2)  16 JUN 2025 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1569,7 +1569,7 @@ Overfull \hbox (18.11826pt too wide) in paragraph at lines 262--262
 File: ../img/localisationZoom.png Graphic file (type png)
 <use ../img/localisationZoom.png>
 Package pdftex.def Info: ../img/localisationZoom.png  used on input line 262.
-(pdftex.def)             Requested size: 262.73021pt x 144.77614pt.
+(pdftex.def)             Requested size: 235.07683pt x 129.54123pt.
 <../img/localisation.png, id=137, 1283.79625pt x 944.52875pt>
 File: ../img/localisation.png Graphic file (type png)
 <use ../img/localisation.png>
@@ -1591,7 +1591,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 (Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 262.
 
 
-Overfull \vbox (10.64792pt too high) detected at line 262
+Overfull \vbox (1.33838pt too high) detected at line 262
  []
 
 [13
@@ -2345,7 +2345,7 @@ mf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 s8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/font
 s/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.
 pfb>
-Output written on Soutenance_Stage_KERVADEC_Mattéo.pdf (87 pages, 4525931 byte
+Output written on Soutenance_Stage_KERVADEC_Mattéo.pdf (87 pages, 4525974 byte
 s).
 PDF statistics:
  770 PDF objects out of 1000 (max. 8388607)
